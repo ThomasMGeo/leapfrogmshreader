@@ -61,11 +61,6 @@ def read_leapfrog_msh(path: Union[str, Path]) -> Dict[str, np.ndarray]:
         [ 1.44831008e+06,  5.24896679e+06, -1.24755449e+02],
         [ 1.44830385e+06,  5.24896985e+06, -1.33694397e+02],
         [ 1.44829874e+06,  5.24897215e+06, -1.42506587e+02]])}
-    See Also
-    ________
-        read_ts : Reading a GoCAD TSurface File
-        read_asc : Reading ESRI ASC files
-        read_zamp : Reading Petrel ZMAP Files
     """
 
     # Checking that the path is of type string or a path
