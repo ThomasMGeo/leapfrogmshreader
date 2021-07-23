@@ -18,7 +18,7 @@ GNU General Public License (LICENSE) for more details.
 
 For more information on LGPL, check out the wikipedia: https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License
 """
-
+impor os
 import numpy as np
 import linecache
 import pandas as pd
