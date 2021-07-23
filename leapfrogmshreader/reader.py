@@ -44,8 +44,8 @@ def read_leapfrog_msh(path: Union[str, Path]) -> Dict[str, np.ndarray]:
     Example
     _______
         >>> # Loading Libraries and File
-        >>> import gemgis as gg
-        >>> data = gg.raster.read_msh('mesh.msh')
+        >>> from leapfrogmshreader import reader
+        >>> data = reader.read_leapfrog_msh(path='filename.msh')
         >>> data
         {'Tri': array([[    0,     1,     2],
         [    0,     3,     1],
