@@ -2,5 +2,5 @@
 LICENSE
 README.md
 setup.py
-leapfrog_msh_reader\__init__.py
-leapfrog_msh_reader\reader.py
+leapfrogmshreader\__init__.py
+leapfrogmshreader\reader.py
